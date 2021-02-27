@@ -20,12 +20,25 @@ header {
     display: flex;
     justify-content: center;
 }
-
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 2px 100px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+}
 .vertical-menu {
     width: 200px; /* Set a width if you like */
   }
   
-  .vertical-menu a {
+.vertical-menu a {
     background-color: #eee; /* Grey background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
